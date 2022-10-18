@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    height: 100%;
+}
+form{
+    background-color: thistle;
+    width: 300px;
+    border-radius: 10px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   height: 57%;
+   
+
+}
+input[name="display"] {
+    background-color: 
+    aqua;
+    height: 40px;
+    text-align: right;
+    border-radius: 8px;
+    margin-left: 15px;
+    width: 81%;
+    border: none;
+    padding: 0 10px;
+    margin-top: 10px;
+    
+}
+
+input[type="button"]{
+    width: calc(100% / 4 );
+    background-color: azure;
+    border-radius: 8px;
+    height: 39px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    border: none;
+   
+   
+}
+
+input[type="button"]:nth-last-of-type(1){
+    background-color: orange;
+    width: 88%;
+    font-size: 22px;
+}
